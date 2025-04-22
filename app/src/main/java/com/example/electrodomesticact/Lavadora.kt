@@ -50,5 +50,3 @@ class Lavadora(
     }
 }
 
-
-fun String.capitalizarPrimeraLetra(): String = this.replaceFirstChar { it.uppercase() }
