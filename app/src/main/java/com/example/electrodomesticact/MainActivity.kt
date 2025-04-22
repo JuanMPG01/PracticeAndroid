@@ -39,7 +39,7 @@ fun LavadoraUI() {
         Text("Lavadora: ${lavadora.marca} ${lavadora.modelo}")
         Text("Estado: ${lavadora.estado()}")
 
-        Text("Selecciona un programa:")
+        Text("Selecciona un program:")
 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             programas.forEach { programa ->
