@@ -48,7 +48,7 @@ fun LavadoraUI() {
                     programaSeleccionado = programa
                     mensaje = "Programa '$programa' seleccionado."
                 }) {
-                    Text(programa.capitalizarPrimeraLetra())
+
                 }
             }
         }
